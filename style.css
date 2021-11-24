@@ -84,7 +84,10 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(34, 189, 181)
 }
-
+img {
+  width: 400px,
+  height: auto
+}
 
 
 
