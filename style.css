@@ -45,6 +45,29 @@ footer {
     padding-bottom: 10px;
 }
 
+.rij{
+
+}
+
+.kolomlinks{
+  float:left;
+  width:30%;
+}
+.kolommidden{
+  float:left;
+  width:30%
+}
+.kolomrechts{
+  float:left;
+  width:30%;
+}
+
+p {
+  text-align:center;
+}
+img {
+  margin:auto;
+}
 
 /* specifieke stijlen */
 
