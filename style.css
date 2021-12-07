@@ -120,10 +120,13 @@ nav li a.active {
     background-color: rgb(184, 34, 189)
 }
 
-div {
+.rij {
   background-color:orange
 }
+h1 {
+  text-align: center
 
+}
 
 
 
