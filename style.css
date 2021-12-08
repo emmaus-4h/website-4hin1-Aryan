@@ -129,9 +129,18 @@ h1 {
 }
 
 .youtubevideos {
-  float: left;
+  
 }
 .bestperformances {
-  
+
   text-align: center
+}
+.kolomrechts1 {
+  float: right;
+  width: 200px;
+}
+
+.kolomlinks1 {
+  float: left;
+  width: 200px;
 }
