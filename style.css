@@ -1,8 +1,10 @@
-/* hHandige instellingen om fouten te zoeken */
+/* Handige instellingen om fouten te zoeken */
 
 * {
   /* lijntjes om alle boxen */
   border: 1px dotted gray;
+  overflow:hidden;
+  box-sizing: border-box;
 }
 ul {
   border: 1px solid yellow;
@@ -12,6 +14,7 @@ ul {
 /* Basislayout */
 
 html, body {
+    overflow:visible;
     height: 100%;
     padding: 0;
     background-color: rgb(0, 0, 0);  
@@ -23,7 +26,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 80%;
     position: relative;
     font-family:sans-serif
 }
@@ -67,6 +70,36 @@ p {
 }
 img {
   margin:auto;
+}
+/* hall of fame */
+.rij {
+  background-color:orange
+}
+
+.kolomlinks1 {
+  float: left;
+  width: 300px;
+}
+
+.kolomrechts1 {
+  float: right;
+  width: calc( 100% - 300px );
+}
+
+h1 {
+  text-align: center
+
+}
+
+.bestevideo {
+  width:100%;
+}
+.youtubevideos {
+  
+}
+.bestperformances {
+
+  text-align: center
 }
 
 /* specifieke stijlen */
@@ -120,27 +153,3 @@ nav li a.active {
     background-color: rgb(184, 34, 189)
 }
 
-.rij {
-  background-color:orange
-}
-h1 {
-  text-align: center
-
-}
-
-.youtubevideos {
-  
-}
-.bestperformances {
-
-  text-align: center
-}
-.kolomrechts1 {
-  float: right;
-  width: 200px;
-}
-
-.kolomlinks1 {
-  float: left;
-  width: 200px;
-}
