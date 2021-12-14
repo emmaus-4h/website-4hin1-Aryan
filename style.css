@@ -2,7 +2,7 @@
 
 * {
   /* lijntjes om alle boxen */
-  border: 1px dotted gray;
+  /* border: 1px dotted gray; */
   overflow:hidden;
   box-sizing: border-box;
 }
