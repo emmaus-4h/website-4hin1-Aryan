@@ -93,6 +93,7 @@ h1 {
 
 .bestevideo {
   width:100%;
+  height:100%;
 }
 .youtubevideos {
   
@@ -158,4 +159,11 @@ nav li a.active {
 }
 .parkingspaces{
   float: right;
+}
+
+.shirt{
+  float:left;
+}
+.jacket{
+  float:right;
 }
